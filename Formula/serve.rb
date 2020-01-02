@@ -8,7 +8,7 @@ class Serve < Formula
   sha256 "173f7f8bb25c5d7973ce05f98e260b08fcd01a03f82a74aa94a4ddcc63849327"
 
   def install
-    bin.install "*" => "serve"
+    bin.install "." => "serve"
   end
 
   test do
