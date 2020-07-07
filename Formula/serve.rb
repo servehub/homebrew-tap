@@ -1,14 +1,14 @@
 class Serve < Formula
   desc "serve"
   homepage "https://github.com/servehub/serve"
-  version "1.6.106"
+  version "1.6.109"
   bottle :unneeded
 
-  url "https://github.com/servehub/serve/releases/download/v1.6.106/serve-v1.6.106-darwin-amd64"
-  sha256 "5ff4a203e4a25240653a8b57d8b89b479abe38fc0871cedd063189185d1e0608"
+  url "https://github.com/servehub/serve/releases/download/v1.6.109/serve-v1.6.109-darwin-amd64"
+  sha256 "eec3aff2d355f51927896efc7219adee3a3ad5c366dc4ed69a3e274e2a02619e"
 
   def install
-    bin.install "serve-v1.6.106-darwin-amd64" => "serve"
+    bin.install "serve-v1.6.109-darwin-amd64" => "serve"
   end
 
   test do
