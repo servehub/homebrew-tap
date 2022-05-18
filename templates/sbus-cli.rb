@@ -2,7 +2,6 @@ class SbusCli < Formula
   desc "sbus-cli"
   homepage "https://github.com/servehub/sbus-cli"
   version "{{version}}"
-  bottle :unneeded
 
   url "https://github.com/servehub/sbus-cli/releases/download/v{{version}}/sbus-v{{version}}-darwin-amd64"
   sha256 "{{sha256}}"

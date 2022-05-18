@@ -2,7 +2,6 @@ class Serve < Formula
   desc "serve"
   homepage "https://github.com/servehub/serve"
   version "{{version}}"
-  bottle :unneeded
 
   url "https://github.com/servehub/serve/releases/download/v{{version}}/serve-v{{version}}-darwin-amd64"
   sha256 "{{sha256}}"
