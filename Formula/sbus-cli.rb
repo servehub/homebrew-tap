@@ -1,13 +1,13 @@
 class SbusCli < Formula
   desc "sbus-cli"
   homepage "https://github.com/servehub/sbus-cli"
-  version "1.0.8"
+  version "1.0.10"
 
-  url "https://github.com/servehub/sbus-cli/releases/download/v1.0.8/sbus-v1.0.8-darwin-amd64"
-  sha256 "e01f4b395569e57219703c6bb367d42022db6133d5feefc208df3b02a678b4e7"
+  url "https://github.com/servehub/sbus-cli/releases/download/v1.0.10/sbus-v1.0.10-darwin-amd64"
+  sha256 "b87736ca717a13d4c5af1f6a4d79b434389ec2aa12ca6e71798074713ea34661"
 
   def install
-    bin.install "sbus-v1.0.8-darwin-amd64" => "sbus"
+    bin.install "sbus-v1.0.10-darwin-amd64" => "sbus"
   end
 
   test do
